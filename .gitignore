@@ -1,0 +1,10 @@
+# Terraform stuff
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+
+# Avoid commiting secrets
+*.tfvars
+
+# prevent commiting the kubeconfig, which has an access token
+kubeconfig_do
